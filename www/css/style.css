@@ -1,0 +1,35 @@
+/************************/
+/* Universal */
+/************************/
+.no-margin {
+    margin: 0 !important;
+}
+
+hr {
+    width: 70%;
+}
+
+/************************/
+/* Home Page */
+/************************/
+
+
+#cover {
+    background-color: #001a4b;
+    color: white;
+}
+
+.cover-text {
+    font-family: "Courier New", Courier, monospace;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.heard-text {
+    font-size: 200px;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+.main-button {
+
+}
