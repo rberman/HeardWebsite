@@ -1,6 +1,11 @@
 /************************/
 /* Universal */
 /************************/
+body {
+    padding: 0;
+    margin: 0;
+}
+
 .no-margin {
     margin: 0 !important;
 }
@@ -25,11 +30,12 @@ hr {
     margin-top: 5%;
 }
 
-.heard-text {
-    font-size: 200px;
-    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-}
-
-.main-button {
+#cover-image {
+    /* Source = https://i.ytimg.com/vi/p5ASFjRwsgw/maxresdefault.jpg */
+    background: url('../img/women.jpg') no-repeat fixed;
+    margin-top: 5%;
+    height: 500px;
+    margin-left: 0;
+    margin-right: 0;
 
 }
