@@ -9,6 +9,10 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
     <script src="js/cover.js"></script>
+
+    <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyASGiuFjvBn7ZwDLkvcNzVZLDC167GZ23U&amp;libraries=places"></script>
+    <script src="js/map.js"></script>
+
 </head>
 <body id="cover">
     <!-- Background text that says HEARD -->
@@ -26,7 +30,9 @@
     </h3>
 
     <!-- Fixed image behind scrolling information -->
-    <div id="cover-image"></div>
+    <!-- Old cover image code: -->
+    <!--<div id="cover-image"></div>-->
+    <div id="googlemap"></div>
 
     <!-- About area -->
     <div class="cover-text no-margin">

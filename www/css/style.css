@@ -53,13 +53,22 @@ hr {
     margin-top: 5%;
 }
 
-#cover-image {
-    /* Source = https://i.ytimg.com/vi/p5ASFjRwsgw/maxresdefault.jpg */
-    background: url('../img/women.jpg') no-repeat fixed;
+/*Old cover image code: */
+/*#cover-image {*/
+    /*!* Source = https://i.ytimg.com/vi/p5ASFjRwsgw/maxresdefault.jpg *!*/
+    /*background: url('../img/women.jpg') no-repeat fixed;*/
+    /*margin-top: 5%;*/
+    /*height: 50vh;*/
+    /*margin-left: 0;*/
+    /*margin-right: 0;*/
+/*}*/
+
+#googlemap {
     margin-top: 5%;
     height: 50vh;
     margin-left: 0;
     margin-right: 0;
+    z-index: 0; /*TODO map stays in background of scrolling elements*/
 }
 
 .more-icon {
