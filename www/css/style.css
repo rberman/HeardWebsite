@@ -33,6 +33,7 @@ hr {
     position: relative;
 }
 
+/* HEARD background title */
 #background-text {
     position: absolute;
     top: -15vw;
@@ -47,8 +48,15 @@ hr {
     color: rgba(255, 255, 255, 0.2);
 }
 
+#other-background-text {
+    font-size: 20vw;
+    font-family: "Arial Black", Gadget, sans-serif;
+    z-index: -1;
+}
+
+/* All text on cover page */
 .cover-text {
-    font-family: "Courier New", Courier, monospace;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
     text-align: center;
     margin-top: 5%;
 }
@@ -57,6 +65,9 @@ hr {
 /*#cover-image {*/
     /*!* Source = https://i.ytimg.com/vi/p5ASFjRwsgw/maxresdefault.jpg *!*/
     /*background: url('../img/women.jpg') no-repeat fixed;*/
+    /*!* Source = https://static.pexels.com/photos/9477/pexels-photo.jpeg*!*/
+    /*!*background: url('../img/woman.jpeg') no-repeat fixed 0 -50vh;*!*/
+    /*background-size: 200vh;*/
     /*margin-top: 5%;*/
     /*height: 50vh;*/
     /*margin-left: 0;*/
@@ -71,9 +82,65 @@ hr {
     z-index: 0; /*TODO map stays in background of scrolling elements*/
 }
 
+/* About section */
+#more {
+}
+
+/* Small scroll arrow for more info */
 .more-icon {
     font-size: 7vw !important;
     margin-top: 2%;
     color: white;
     text-decoration: none;
+}
+
+/* About Columns */
+.columns {
+    -webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+}
+
+.about-info {
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+.circle {
+    width:20vw;
+    height:20vw;
+    border-radius:100%;
+    font-size: 1.5vw;
+    color: black;
+    line-height:100%;
+    text-align:center;
+    background:#bed7fd;
+    padding: 15%;
+}
+
+#mission-statement {
+    margin-top: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 10%;
+    font-size: 30px;
+}
+
+.fb {
+}
+
+.fa-facebook-official {
+    font-size: 25vh !important;
+    color: white !important;
+    clear: both;
+}
+
+.fb-text {
+    clear: both;
+    left: 0;
+    margin-right: 25%;
+    margin-left: 25%;
+    font-size: 5vh;
+    margin-bottom: 30%;
+
 }
