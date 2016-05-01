@@ -123,14 +123,15 @@ hr {
 
 .fa-facebook-official {
     font-size: 25vh !important;
-    float: left;
-    margin-left: 25%;
-    margin-right: 5%
+    color: white !important;
+    clear: both;
 }
 
 .fb-text {
+    clear: both;
     left: 0;
     margin-right: 25%;
+    margin-left: 25%;
     font-size: 5vh;
     margin-bottom: 30%;
 
