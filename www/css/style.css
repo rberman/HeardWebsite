@@ -95,6 +95,7 @@ hr {
 
 .about-info {
     margin-top: 5%;
+    margin-bottom: 10%;
 }
 
 .circle {
@@ -107,4 +108,30 @@ hr {
     text-align:center;
     background:#bed7fd;
     padding: 15%;
+}
+
+#mission-statement {
+    margin-top: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 10%;
+    font-size: 30px;
+}
+
+.fb {
+}
+
+.fa-facebook-official {
+    font-size: 25vh !important;
+    float: left;
+    margin-left: 25%;
+    margin-right: 5%
+}
+
+.fb-text {
+    left: 0;
+    margin-right: 25%;
+    font-size: 5vh;
+    margin-bottom: 30%;
+
 }
